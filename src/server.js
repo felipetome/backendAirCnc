@@ -16,7 +16,7 @@ const server= http.Server(app)
 const io = socketio(server);
 
 
-mongoose.connect('mongodb+srv://oministack:oministack@omini-kqif5.mongodb.net/semana09?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://<user>:<password>@omini-kqif5.mongodb.net/semana09?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
